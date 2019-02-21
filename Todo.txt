@@ -1,0 +1,11 @@
+1) Validate the Correctness of the block on the server with the fixture data
+2) Evaluate and make use of lastblockhash
+3) Check the other validations that Trinity is doing
+
+
+
+Long Term Incentives
+---------------------------
+1) Open a new thread to start the RPC server instead of manually turning it on yourself
+2) Parallellize the test cases
+3) Make sure that the `evm_resetToGenesisFixture` returns the rlp of the genesis
